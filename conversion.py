@@ -5,7 +5,7 @@ print("*****Welcome to the Conversion Calculator*****");
 print("**********************************************");
 print();
 
-print("Which conversion would you like to do?"); time.sleep(1);
+print("These are the following Conversions?"); time.sleep(1);
 print("1. Fahrenheit to Celsius"); time.sleep(1);
 print("2. Celsius to Fahrenheit"); time.sleep(1);
 print("3. Miles to Kilometers"); time.sleep(1);

@@ -46,3 +46,10 @@ print("20. Minutes to Months");
 print("20. Minutes to Months");
 print("20. Minutes to Months");
 print("20. Minutes to Months");
+
+num1 = int(input("Enter the Conversion Number here: "));
+
+num1 == 1:
+    sec = int(input("Enter you number in seconds: "));
+    min = (sec/60)
+    print(sec,"seconds is", min,"minute");

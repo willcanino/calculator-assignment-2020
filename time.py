@@ -47,19 +47,11 @@ print("20. Minutes to Months");
 print("20. Minutes to Months");
 print("20. Minutes to Months");
 
-num1 = int(input("Enter which time conversion you would like to use: "));
 
-if num1 == 1:
-    sec = int(input("Enter the amount of seconds you would like to convert to minutes: "));
-    min = (sec/60);
-    print(sec,"seconds is", min,"minutes.");
 
-if num1 == 2:
-    min = int(input("Enter the amount of minutes you would like to convert to seconds: "));
-    sec = (min*60);
-    print(min,"minutes is",sec,"seconds.")
+num1 = int(input("Enter the Conversion Number here: "));
 
-if num1 == 3:
-    sec = int(input("Enter the amount of seconds you would like to convert to hours: "));
-    hrs = (sec*3600);
-    print(sec,"seconds is",hrs,"hours")
+num1 == 1:
+    sec = int(input("Enter you number in seconds: "));
+    min = (sec/60)
+    print(sec,"seconds is", min,"minute");

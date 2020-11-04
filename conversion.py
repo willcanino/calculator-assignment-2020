@@ -5,12 +5,19 @@ print("*****Welcome to the Conversion Calculator*****");
 print("**********************************************");
 print();
 
-print("These are the following Conversions?"); time.sleep(1);
-print("1. Fahrenheit to Celsius"); time.sleep(1);
-print("2. Celsius to Fahrenheit"); time.sleep(1);
-print("3. Miles to Kilometers"); time.sleep(1);
-print("4. Kilometers to Miles"); time.sleep(1);
-print();
+first = True
+while True:
+if not first:
+    first = False
+    again = input("Would you like to run another equation?")
+    if again == "no" or again == "No":
+        break
+    print("These are the following Conversions?"); time.sleep(1);
+    print("1. Fahrenheit to Celsius"); time.sleep(1);
+    print("2. Celsius to Fahrenheit"); time.sleep(1);
+    print("3. Miles to Kilometers"); time.sleep(1);
+    print("4. Kilometers to Miles"); time.sleep(1);
+    print();
 
 num1 = int(input("Which conversion would you like to use: ")); time.sleep(1);
 

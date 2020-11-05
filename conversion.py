@@ -7,7 +7,6 @@ print();
 first = True
 while True:
     if not first:
-        first = False
         again = input("Would you like to run another equation?")
         if again == "no" or again == "No":
             break
@@ -39,3 +38,5 @@ while True:
             km = int(input("Enter your number in Kilometers: ")); time.sleep(1);
             m = (km/1.609);
             print(km, "Kilometers is", m, "Miles (approximately)"); time.sleep(1);
+        
+        first = False

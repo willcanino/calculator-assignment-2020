@@ -7,7 +7,7 @@ print();
 first = True
 while True:
     if not first:
-        again = input("Would you like to run another equation?")
+        again = input("Would you like to run another equation? ")
         if again == "no" or again == "No":
             break
         print("These are the following Conversions?"); time.sleep(1);
